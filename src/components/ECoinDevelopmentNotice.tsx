@@ -12,6 +12,9 @@ import {
   ExternalLink
 } from "lucide-react";
 
+import ECoinProtocolDashboard from "@/components/ECoinProtocolDashboard";
+
+
 export default function ECoinDevelopmentNotice() {
    const [showModal, setShowModal] = useState(false);
   return (
@@ -181,6 +184,15 @@ export default function ECoinDevelopmentNotice() {
         </div>
       </motion.div>
 
+{/* SEPARADOR*/}
+<div className="relative z-10 mt-14 mb-10 flex items-center gap-4">
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent" />
+  <span className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-[#D4AF37]/80">
+    EdenKingDom Coin (E-Coin) Market Listing Preparation
+  </span>
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent" />
+</div>
+<ECoinProtocolDashboard />
       {/* Fundo visual */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 left-1/2 w-[600px] h-[600px] -translate-x-1/2 bg-[#D4AF37]/10 rounded-full blur-[160px]" />

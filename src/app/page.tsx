@@ -33,17 +33,27 @@ import ECoinRewardsInfo from "@/components/ECoinRewardsInfo";
 
 
 
+
 export default function Home() {
   return (
     <>
       <Hero />
       <ECoinDevelopmentNotice />
+      
        <EcoinCarousel />
         <ECoinBenefitsInfo />
       <EBCConvertSection />
       <ECoinRewardsInfo />
       <ECoinOnChainStaking />
       <Chart /> 
+      {/* SEPARADOR*/}
+<div className="relative z-10 mt-14 mb-10 flex items-center gap-4">
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent" />
+  <span className="text-[11px] sm:text-xs uppercase tracking-[0.35em] text-[#D4AF37]/80">
+  EFTE (E-Exchange) redirection panel 
+  </span>
+  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent" />
+</div>
       <EFTEBuySellPanel />
       <ECoinHubPage />
       <EcoinAISection />
