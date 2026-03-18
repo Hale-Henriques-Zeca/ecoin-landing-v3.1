@@ -239,6 +239,7 @@ export default function ECoinProtocolDashboard() {
 
       </section>
 
+
       {/* CTA */}
 
       <section className="py-24 px-6 text-center">
@@ -255,6 +256,49 @@ export default function ECoinProtocolDashboard() {
 
       </section>
 
+      <section className="relative flex-1 flex items-center justify-center px-6 py-24 overflow-hidden">
+
+        <div
+          className="absolute inset-0 bg-gradient-to-r
+          from-[#D4AF37]/10 via-transparent to-[#D4AF37]/10"
+        />
+
+        <div className="relative z-10 max-w-3xl text-center">
+
+
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-6">
+            ⚙️ <span className="text-[#D4AF37]">Market Price — PancakeSwap Liquidity Added in the Market Only Phase</span>
+          </h1>
+
+          <p className="mb-3">
+
+After the completion of the protocol’s Phases internal economic preparation
+phases, the E-Coin ecosystem transitions into the first stage of
+external market interaction through a <strong>pre-listing liquidity
+deployment on PancakeSwap</strong>.
+
+</p>
+
+        </div>
+        
+        
+      </section>
+
+{/* CTA */}
+
+      <section className="py-24 px-6 text-center">
+
+        <Link
+          href="/Market-Only-phase"
+          className="inline-flex items-center gap-2 px-10 py-4 rounded-full
+          bg-black text-white font-semibold
+          hover:bg-[#D4AF37] hover:text-black
+          transition-all duration-300 shadow-lg"
+        >
+          Explore — the Market Price Only Phase →
+        </Link>
+
+      </section>
     </main>
   );
 }

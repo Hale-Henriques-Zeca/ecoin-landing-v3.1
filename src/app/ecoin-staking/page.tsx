@@ -939,37 +939,203 @@ export default function Page() {
 
       <p>---</p>
 
-      <p className="font-semibold text-black">
-        🚀 Explore the E-Coin Business
-      </p>
+      {/* ================= EXPLORE THE ECOIN ECOSYSTEM ================= */}
 
-      <p>
-        <strong>Start Here — E-Coin Staking</strong><br/>
-        https://ecoin.edenkingdom.org/ecoin-staking
-      </p>
+<section className="bg-white p-8 rounded-2xl shadow-md mt-10">
 
-      <p>
-        <strong>Leadership Board (Referral Commission System)</strong><br/>
-        https://ecoin.edenkingdom.org/equipes
-      </p>
+<h2 className="text-2xl font-semibold mb-6">
+🚀 Explore the E-Coin Ecosystem
+</h2>
 
-      <p>---</p>
+<p className="mb-8">
+Access the main components of the E-Coin ecosystem including staking,
+rewards, leadership structure, smart contract information and the
+complete business presentation.
+</p>
 
-      <p className="font-semibold text-black">
-        Learn More About E-Coin
-      </p>
 
-      <p><strong>E-Coin Benefits</strong><br/>https://ecoin.edenkingdom.org/ecoin-benefits</p>
-      <p><strong>E-Coin Converter</strong><br/>https://ecoin.edenkingdom.org/ecoin-converter</p>
-      <p><strong>Information About Staking</strong><br/>https://ecoin.edenkingdom.org/ecoin-staking</p>
-      <p><strong>Rewards Page</strong><br/>https://ecoin.edenkingdom.org/ecoin-rewards</p>
-      <p><strong>Leadership / Referral Structure</strong><br/>https://ecoin.edenkingdom.org/equipes</p>
-      <p><strong>Token Whitepaper / Business Presentation</strong><br/>https://ecoin.edenkingdom.org/EcoinBusinessPresentation</p>
-      <p><strong>E-Coin Smart Contract Interpretation</strong><br/>https://ecoin.edenkingdom.org/ECoinSolidity</p>
-      <p><strong>Official E-Coin Business Presentation</strong><br/>https://ecoin.edenkingdom.org/EcoinBusinessPresentation</p>
+{/* ================= START HERE ================= */}
 
-      <p>---</p>
+<h3 className="text-xl font-semibold mb-4">
+Start Here
+</h3>
 
+<div className="grid md:grid-cols-2 gap-6 mb-10">
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">
+E-Coin Staking
+</h4>
+
+<p className="mb-4 text-sm">
+Participate in the E-Coin staking program and generate rewards while supporting the ecosystem.
+</p>
+
+<a
+href="https://ecoin.edenkingdom.org/ecoin-staking"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Access Staking →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">
+Leadership Board
+</h4>
+
+<p className="mb-4 text-sm">
+View the referral structure and commission system used in the E-Coin leadership network.
+</p>
+
+<a
+href="https://ecoin.edenkingdom.org/equipes"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Access Leadership Board →
+</a>
+
+</div>
+
+</div>
+
+
+{/* ================= LEARN MORE ================= */}
+
+<h3 className="text-xl font-semibold mb-6">
+Learn More About E-Coin
+</h3>
+
+<div className="grid md:grid-cols-2 gap-6">
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">E-Coin Benefits</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/ecoin-benefits"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+View Benefits →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">E-Coin Converter</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/ecoin-converter"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Open Converter →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">Staking Information</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/ecoin-staking"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Learn About Staking →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">Rewards Page</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/ecoin-rewards"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+View Rewards →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">Leadership / Referral Structure</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/equipes"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Open Leadership System →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">Token Whitepaper / Business Presentation</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/EcoinBusinessPresentation"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Read Presentation →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">E-Coin Smart Contract Interpretation</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/ECoinSolidity"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+View Contract Details →
+</a>
+
+</div>
+
+
+<div className="bg-gray-100 p-6 rounded-xl">
+
+<h4 className="font-semibold mb-2">Official E-Coin Business Presentation</h4>
+
+<a
+href="https://ecoin.edenkingdom.org/EcoinBusinessPresentation"
+target="_blank"
+className="inline-block px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-full hover:bg-black hover:text-white transition"
+>
+Open Presentation →
+</a>
+
+</div>
+
+</div>
+
+</section>
       <p className="font-semibold text-black">
         Crypto is global.
       </p>
